@@ -13,6 +13,6 @@ The prediction task is framed as a binary classification problem, and I evaluate
 My hypothesis is that incorporating temporal context and using dual-path architectures—which separately process each team's historical performance—can improve prediction accuracy compared to traditional models that treat games independently.
 
 ### Code ###
-All of my classifier training code primarily resides in the ./temporal_models_training directory.
-In the ./data_sandboxing directory resides code I wrote to learn the structure of the data before doing feature engineering on it. 
-In the ./DNN_Architectures directroy resides the different NN architectures that I built for temporal modeling
+- All of my classifier training code primarily resides in the **./temporal_models_training** directory.
+- In the **./data_sandboxing** directory resides code I wrote to learn the structure of the data before doing feature engineering on it. 
+- In the **./DNN_Architectures** directory resides the different NN architectures that I built for temporal modeling
