@@ -16,3 +16,18 @@ My hypothesis is that incorporating temporal context and using dual-path archite
 - All of my classifier training code primarily resides in the **./temporal_models_training** directory.
 - In the **./data_sandboxing** directory resides code I wrote to learn the structure of the data before doing feature engineering on it. 
 - In the **./DNN_Architectures** directory resides the different NN architectures that I built for temporal modeling
+
+## How to Run This Project
+
+### 📦 Prerequisites
+
+Before you begin, make sure you have the following installed:
+
+- Python 3.8+
+- Git
+- Git LFS — Required because the `NBA_temporal_dataset.pkl` file is large and stored using Git LFS.
+
+To install Git LFS:
+
+```bash
+git lfs install
