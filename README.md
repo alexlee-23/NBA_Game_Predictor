@@ -71,6 +71,7 @@ Make sure you have the following Python libraries installed:
 
 ```bash
 numpy
+pickle
 pandas
 scikit-learn
 matplotlib
