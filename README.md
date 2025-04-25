@@ -17,17 +17,50 @@ My hypothesis is that incorporating temporal context and using dual-path archite
 - In the **./data_sandboxing** directory resides code I wrote to learn the structure of the data before doing feature engineering on it. 
 - In the **./DNN_Architectures** directory resides the different NN architectures that I built for temporal modeling
 
-## How to Run This Project
+## How to Run Temporal Models
 
-### 📦 Prerequisites
+> **Important**: Make sure you have Git LFS installed, as the dataset file `NBA_temporal_dataset.pkl` is large and tracked using LFS.
 
-Before you begin, make sure you have the following installed:
-
-- Python 3.8+
-- Git
-- Git LFS — Required because the `NBA_temporal_dataset.pkl` file is large and stored using Git LFS.
-
-To install Git LFS:
+### 1. Clone the Repository
 
 ```bash
-git lfs install
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+### 2. Navigate to the Training Notebooks
+
+Despite the many directories, the main notebooks for model training and generating individual analysis plots are all in:
+
+```
+./temporal_models_training
+```
+
+### 3. Run the Notebooks
+
+Open each notebook and run all cells to train a model and generate corresponding plots.
+
+For example, to run the **Dual-path LSTM**, open the file:
+
+```
+dual_lstm_temporal.ipynb
+```
+
+Then click **"Run All"** in Jupyter Notebook (or your preferred interface) and wait until training and evaluation are complete.
+
+All trained models are saved into the directory from which you run the notebook:
+
+```
+./models
+```
+
+### 4. Notebook Reference Table
+
+| Model                            | Notebook File                  |
+|----------------------------------|--------------------------------|
+| Dual-path Feed Forward Network   | `dual_ffn_temporal.ipynb`     |
+| Single Feed Forward Network      | `fffn_temporal.ipynb`         |
+| Dual-path LSTM Network           | `dual_lstm_temporal.ipynb`    |
+| Single LSTM Network              | `lstm_temporal.ipynb`         |
+| Logistic Regression & GNB        | `naive_temporal.ipynb`        |
+**
