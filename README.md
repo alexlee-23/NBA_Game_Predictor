@@ -63,3 +63,20 @@ All trained models are saved into the directory from which you run the notebook:
 | Dual-path LSTM Network           | `dual_lstm_temporal.ipynb`    |
 | Single LSTM Network              | `lstm_temporal.ipynb`         |
 | Logistic Regression & GNB        | `naive_temporal.ipynb`        |
+
+
+## Requirements
+
+Make sure you have the following Python libraries installed:
+
+```bash
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+torch
+torchvision
+tqdm
+jupyter
+```
