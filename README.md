@@ -1,5 +1,5 @@
 ## NBA Game Outcome Prediction ##
-### CS6140 Final Project – by Alex Lee ###
+### Alex Lee ###
 
 ### Overview ###
 This project explores the use of recent game histories to predict the outcomes of NBA games. I focus on modeling the past five games for both the home and opposing teams and use these temporal patterns to classify whether the home team will win.
